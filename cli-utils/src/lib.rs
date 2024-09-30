@@ -8,6 +8,8 @@
 //! # Panics:
 //! The `read_stdin` function will panic if it fails to read a line from the standard input.
 use std::io::{BufRead, BufReader};
+pub mod colors;
+pub mod config;
 /// this function reads a line from the standard input and returns it as a string
 /// it will panic if it fails to read a line with message "Failed to read input line"
 /// # Examples:
