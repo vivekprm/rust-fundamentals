@@ -30,9 +30,9 @@ pub enum LogOutput {
 /// };
 /// ```
 pub struct Logging {
-    enabled: bool,
-    level: LogLevel,
-    destination: LogOutput,
+    pub enabled: bool,
+    pub level: LogLevel,
+    pub destination: LogOutput,
 }
 
 impl Logging {
