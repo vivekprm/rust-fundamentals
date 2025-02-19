@@ -11,26 +11,26 @@ Output:
 Rustup metadata and toolchains will be installed into the Rustup
 home directory, located at:
 
-  /Users/v.mishra/.rustup
+  $HOME/.rustup
 
 This can be modified with the RUSTUP_HOME environment variable.
 
 The Cargo home directory is located at:
 
-  /Users/v.mishra/.cargo
+  $HOME/.cargo
 
 This can be modified with the CARGO_HOME environment variable.
 
 The cargo, rustc, rustup and other commands will be added to
 Cargo's bin directory, located at:
 
-  /Users/v.mishra/.cargo/bin
+  $HOME/.cargo/bin
 
 This path will then be added to your PATH environment variable by
 modifying the profile files located at:
 
-  /Users/v.mishra/.profile
-  /Users/v.mishra/.zshenv
+  $HOME/.profile
+  $HOME/.zshenv
 
 You can uninstall at any time with rustup self uninstall and
 these changes will be reverted.
