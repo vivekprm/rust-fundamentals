@@ -1,5 +1,5 @@
 # Creating new Project
-Make sure cargo is installed. We  cann use cargo to created projects or we can use filesystem and create all files and folders manually.
+Make sure cargo is installed. We  can use cargo to created projects or we can use filesystem and create all files and folders manually.
 
 ```sh
 cargo init .
@@ -9,7 +9,7 @@ Creates project in current directory and names the project as same as directory 
 - Cargo.toml
 - src/main.rs
 
-Inn case we want  to create library use:
+In case we want to create library use:
 ```sh
 cargo init . --lib
 ```
